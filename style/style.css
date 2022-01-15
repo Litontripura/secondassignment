@@ -10,6 +10,9 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
+.container{
+
+}
 .navmenu{
     display: flex;
     justify-content: space-evenly;
@@ -17,6 +20,9 @@ font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     background: linear-gradient(to right, #374a7e, #192a56);
     padding: .5em 0em;
+}
+body{
+    
 }
 .left-nav{}
 .left-nav h1{
@@ -89,6 +95,97 @@ font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     margin-left: 1em;
 }
+.section-img img{
+    border-radius: 50%;
+    background: #192a56;
+    border: 5px solid white;
+    margin-top: 1em;
+    
+}
 
 
 
+/*   icon   section  */
+
+
+.icon-section{}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em 0;
+
+    border-top: 1px solid white;
+}
+.icons li{
+    list-style: none;
+}
+.icons li a{}
+
+
+
+/* popular collection section */
+
+
+
+.popular-header{
+    text-align: center;
+    margin-top: 5em;
+}
+
+
+.popular-collection{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+.populer-collection2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    grid-row-gap: 2em;
+    justify-content: center;
+}
+.collection-item{
+ width: 90%;
+   
+   padding: 1em;
+   box-shadow: 0px 0px 10px 1px black;
+   border-radius: 15px;
+
+}
+.item-img{}
+.item-img img{
+  max-width: 100%;
+}
+.collection-details{
+  text-align: left;
+  padding: 1em;
+}
+.collection-details h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.collection-details h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.collection-details span{}
+.collection-details p{}
+.fa-star{
+    color: #FB8A12;
+}
+.fa-star.filled{
+    color: grey;
+}
+
+
+
+
+
+
+/* footr button */
