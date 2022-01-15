@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     background: linear-gradient(to right, #374a7e, #192a56);
     padding: .5em 0em;
 }
@@ -26,6 +27,7 @@ font-family: 'Roboto', sans-serif;
 .right-menu{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    flex-wrap: wrap;
 }
 .right-menu li{
     list-style: none;
@@ -37,3 +39,56 @@ font-family: 'Roboto', sans-serif;
     color: #f5f6fa;
 }
 .right-menu li a i{}
+
+/* start journy  section start */
+.journy-section{}
+.start-journy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to left,#7f8fa6, #192a56);
+    flex-wrap: wrap;
+}
+.left-content{
+    width: 40%;
+}
+.left-content h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    
+   
+}
+.left-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+   
+
+}
+.left-content button{
+    background: #192a56;
+    border: none;
+    padding: 1em 2em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    
+}
+.left-content button span{
+    color: white;
+    font-size: 1.5em;
+    
+}
+.left-content button i{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+
+
