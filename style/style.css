@@ -11,6 +11,12 @@ background: linear-gradient(to bottom, #192d5e, white, deeppink);
     text-decoration: none;
     box-sizing: border-box;
 }
+.bar{
+    display: none;
+}
+.cart{
+    display: none;
+}
 .container{
 
 }

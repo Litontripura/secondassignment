@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navmenu{
+  
+    display: grid;
+grid-template-columns: repeat(2, 1fr 2fr);
+    
+    
+}
+.bar{
+    color: white;
+    font-size: 2em;
+    margin-right: 1em;
+    display: block;
+}
+.cart{
+    display: block;
+}
+.left-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 30px;
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+}
+.right-menu{
+    display: none;
+   
+  
+}
+.right-menu.fa-shopping-cart{
+    display: block;
+}
+
+
+
+/* journuysection */
+
+
+
+
+.journy-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.start-journy{
+   display: flex;
+   flex-direction: column-reverse;
+   
+
+    
+}
+.left-content{
+    margin: 0;
+    padding: 0;
+}
+.left-content h1{
+text-align: center;
+  
+  padding: 0;
+}
+
+
+
+
+.icon-section{}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 2em;
+}
+
+.popular-collection{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.populer-collection2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  
+}
+.see-more{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.bottom-section{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
