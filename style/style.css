@@ -333,7 +333,7 @@ body{
         width: 40%;
     }
     .right-menu{
-        
+        display: block;
     }
     
     
@@ -357,6 +357,13 @@ body{
     .populer-collection2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .collection-item {
+        width: 67%;
+        padding: 1em;
+        box-shadow: 0px 0px 10px 1px black;
+        border-radius: 15px;
+        margin: 10px -10px;
     }
     
     
