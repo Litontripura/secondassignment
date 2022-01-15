@@ -313,3 +313,55 @@ body{
 
 
 
+
+
+
+
+
+
+/* media quary   */
+
+
+
+@media only screen and (max-width: 922px) {
+    
+    .navmenu{}
+    .bar{
+        display: none;
+    }
+    .left-nav{
+        width: 40%;
+    }
+    .right-menu{
+        
+    }
+    
+    
+    
+    
+    
+    .start-journy{
+       
+    }
+    .left-content{
+        white-space: nowrap;
+        margin-left: 0;
+    }
+    
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    
+    .populer-collection2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+
+
+
+}
+
