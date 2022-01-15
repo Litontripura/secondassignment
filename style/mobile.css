@@ -15,15 +15,15 @@ grid-template-columns: repeat(2, 1fr 2fr);
 .bar{
     color: white;
     font-size: 2em;
-    margin-right: 2em;
-    display: block;
+    margin-right: 1em;
+    display: inline-block;
 }
 .cart{
     display: block;
 }
 .left-nav{
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     white-space: nowrap;
 
@@ -96,7 +96,11 @@ text-align: center;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
+
   
+}
+.collection-item{
+    margin-left: -49px;
 }
 .see-more{
     display: flex;
